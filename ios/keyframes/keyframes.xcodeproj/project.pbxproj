@@ -8,6 +8,50 @@
 
 /* Begin PBXBuildFile section */
 		493741AF1DE4FEB6002141D1 /* sample_logo.json in Resources */ = {isa = PBXBuildFile; fileRef = 493741AE1DE4FEB6002141D1 /* sample_logo.json */; };
+		494F5CD01DED166000F88067 /* KFVector.m in Sources */ = {isa = PBXBuildFile; fileRef = AD8E724D1D2C3DB100E3BA9D /* KFVector.m */; };
+		494F5CD11DED166000F88067 /* KFVectorAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = AD8E72501D2C3DB100E3BA9D /* KFVectorAnimation.m */; };
+		494F5CD21DED166000F88067 /* KFVectorAnimationGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = AD8E72531D2C3DB100E3BA9D /* KFVectorAnimationGroup.m */; };
+		494F5CD31DED166000F88067 /* KFVectorAnimationKeyValue.m in Sources */ = {isa = PBXBuildFile; fileRef = AD8E72561D2C3DB100E3BA9D /* KFVectorAnimationKeyValue.m */; };
+		494F5CD41DED166000F88067 /* KFVectorFeature.m in Sources */ = {isa = PBXBuildFile; fileRef = AD8E72591D2C3DB100E3BA9D /* KFVectorFeature.m */; };
+		494F5CD51DED166000F88067 /* KFVectorFeatureKeyFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = AD8E725C1D2C3DB100E3BA9D /* KFVectorFeatureKeyFrame.m */; };
+		494F5CD61DED166000F88067 /* KFVectorGradientEffect.m in Sources */ = {isa = PBXBuildFile; fileRef = AD8E725F1D2C3DB100E3BA9D /* KFVectorGradientEffect.m */; };
+		494F5CD71DED166000F88067 /* KFUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = AD8E72631D2C3DB100E3BA9D /* KFUtilities.m */; };
+		494F5CD81DED166000F88067 /* KFVectorAnimationLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = AD8E72661D2C3DB100E3BA9D /* KFVectorAnimationLayer.m */; };
+		494F5CD91DED166000F88067 /* KFVectorBitmapFeatureLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A85F1C1D90B94B00185B66 /* KFVectorBitmapFeatureLayer.m */; };
+		494F5CDA1DED166000F88067 /* KFVectorFeatureLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = AD8E72681D2C3DB100E3BA9D /* KFVectorFeatureLayer.m */; };
+		494F5CDB1DED166000F88067 /* KFVectorGradientFeatureLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = AD8E726B1D2C3DB100E3BA9D /* KFVectorGradientFeatureLayer.m */; };
+		494F5CDC1DED166000F88067 /* KFVectorLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = AD8E726D1D2C3DB100E3BA9D /* KFVectorLayer.m */; };
+		494F5CDD1DED166000F88067 /* KFVectorLayerHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = AD8E726F1D2C3DB100E3BA9D /* KFVectorLayerHelper.m */; };
+		494F5CDE1DED166000F88067 /* KFVectorBezierPathsHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = AD8E72721D2C3DB100E3BA9D /* KFVectorBezierPathsHelper.m */; };
+		494F5CDF1DED166000F88067 /* KFVectorParsingHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = AD8E72741D2C3DB100E3BA9D /* KFVectorParsingHelper.m */; };
+		494F5CE01DED166000F88067 /* KFVectorView.m in Sources */ = {isa = PBXBuildFile; fileRef = AD8E72771D2C3DB100E3BA9D /* KFVectorView.m */; };
+		494F5CE11DED167800F88067 /* KFVector.h in Headers */ = {isa = PBXBuildFile; fileRef = AD8E724C1D2C3DB100E3BA9D /* KFVector.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		494F5CE21DED168D00F88067 /* KFVectorLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = AD8E726C1D2C3DB100E3BA9D /* KFVectorLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		494F5CE31DED169400F88067 /* KFUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = AD8E72621D2C3DB100E3BA9D /* KFUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		494F5CE51DED16AA00F88067 /* KFVectorParsingHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = AD8E72731D2C3DB100E3BA9D /* KFVectorParsingHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		494F5CE61DED16CB00F88067 /* KFVectorAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = AD8E724F1D2C3DB100E3BA9D /* KFVectorAnimation.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		494F5CE71DED16CB00F88067 /* KFVectorAnimationGroup.h in Headers */ = {isa = PBXBuildFile; fileRef = AD8E72521D2C3DB100E3BA9D /* KFVectorAnimationGroup.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		494F5CE81DED16CB00F88067 /* KFVectorAnimationKeyValue.h in Headers */ = {isa = PBXBuildFile; fileRef = AD8E72551D2C3DB100E3BA9D /* KFVectorAnimationKeyValue.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		494F5CE91DED16CB00F88067 /* KFVectorFeature.h in Headers */ = {isa = PBXBuildFile; fileRef = AD8E72581D2C3DB100E3BA9D /* KFVectorFeature.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		494F5CEA1DED16CB00F88067 /* KFVectorFeatureKeyFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = AD8E725B1D2C3DB100E3BA9D /* KFVectorFeatureKeyFrame.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		494F5CEB1DED16CB00F88067 /* KFVectorGradientEffect.h in Headers */ = {isa = PBXBuildFile; fileRef = AD8E725E1D2C3DB100E3BA9D /* KFVectorGradientEffect.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		494F5CEC1DED16CB00F88067 /* KFVectorAnimationLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = AD8E72651D2C3DB100E3BA9D /* KFVectorAnimationLayer.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		494F5CED1DED16CB00F88067 /* KFVectorBitmapFeatureLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 49A85F1B1D90B94B00185B66 /* KFVectorBitmapFeatureLayer.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		494F5CEE1DED16CB00F88067 /* KFVectorFeatureLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = AD8E72671D2C3DB100E3BA9D /* KFVectorFeatureLayer.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		494F5CEF1DED16CB00F88067 /* KFVectorFeatureLayerInterface.h in Headers */ = {isa = PBXBuildFile; fileRef = AD8E72691D2C3DB100E3BA9D /* KFVectorFeatureLayerInterface.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		494F5CF01DED16CB00F88067 /* KFVectorGradientFeatureLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = AD8E726A1D2C3DB100E3BA9D /* KFVectorGradientFeatureLayer.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		494F5CF11DED16CB00F88067 /* KFVectorLayerHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = AD8E726E1D2C3DB100E3BA9D /* KFVectorLayerHelper.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		494F5CF21DED16CB00F88067 /* KFVectorBezierPathsHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = AD8E72711D2C3DB100E3BA9D /* KFVectorBezierPathsHelper.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		494F5CF31DED16CB00F88067 /* KFVectorView.h in Headers */ = {isa = PBXBuildFile; fileRef = AD8E72761D2C3DB100E3BA9D /* KFVectorView.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		494F5CF41DED16F800F88067 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AD205EB01D2C5A2100AE89A1 /* Info.plist */; };
+		494F5CF51DED16F800F88067 /* KFVector.value in Resources */ = {isa = PBXBuildFile; fileRef = AD8E724E1D2C3DB100E3BA9D /* KFVector.value */; };
+		494F5CF61DED16F800F88067 /* KFVectorAnimation.value in Resources */ = {isa = PBXBuildFile; fileRef = AD8E72511D2C3DB100E3BA9D /* KFVectorAnimation.value */; };
+		494F5CF71DED16F800F88067 /* KFVectorAnimationGroup.value in Resources */ = {isa = PBXBuildFile; fileRef = AD8E72541D2C3DB100E3BA9D /* KFVectorAnimationGroup.value */; };
+		494F5CF81DED16F800F88067 /* KFVectorAnimationKeyValue.value in Resources */ = {isa = PBXBuildFile; fileRef = AD8E72571D2C3DB100E3BA9D /* KFVectorAnimationKeyValue.value */; };
+		494F5CF91DED16F800F88067 /* KFVectorFeature.value in Resources */ = {isa = PBXBuildFile; fileRef = AD8E725A1D2C3DB100E3BA9D /* KFVectorFeature.value */; };
+		494F5CFA1DED16F800F88067 /* KFVectorFeatureKeyFrame.value in Resources */ = {isa = PBXBuildFile; fileRef = AD8E725D1D2C3DB100E3BA9D /* KFVectorFeatureKeyFrame.value */; };
+		494F5CFB1DED16F800F88067 /* KFVectorGradientEffect.value in Resources */ = {isa = PBXBuildFile; fileRef = AD8E72601D2C3DB100E3BA9D /* KFVectorGradientEffect.value */; };
+		494F5CFC1DED170300F88067 /* .valueObjectConfig in Resources */ = {isa = PBXBuildFile; fileRef = AD8E724B1D2C3DB100E3BA9D /* .valueObjectConfig */; };
 		49A85F1D1D90B94B00185B66 /* KFVectorBitmapFeatureLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 49A85F1B1D90B94B00185B66 /* KFVectorBitmapFeatureLayer.h */; };
 		49A85F1E1D90B94B00185B66 /* KFVectorBitmapFeatureLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A85F1C1D90B94B00185B66 /* KFVectorBitmapFeatureLayer.m */; };
 		AD205EB11D2C5A2100AE89A1 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AD205EB01D2C5A2100AE89A1 /* Info.plist */; };
@@ -67,6 +111,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		490358B31DED106800CE48D8 /* keyframes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = keyframes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		493741AE1DE4FEB6002141D1 /* sample_logo.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = sample_logo.json; sourceTree = "<group>"; };
 		49A85F1B1D90B94B00185B66 /* KFVectorBitmapFeatureLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KFVectorBitmapFeatureLayer.h; sourceTree = "<group>"; };
 		49A85F1C1D90B94B00185B66 /* KFVectorBitmapFeatureLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KFVectorBitmapFeatureLayer.m; sourceTree = "<group>"; };
@@ -119,6 +164,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		490358AF1DED106800CE48D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		AD46D2F81D3041AD0008AF78 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -259,6 +311,7 @@
 			children = (
 				ADBA24B01D2C3C9400D2549E /* keyframes.framework */,
 				AD46D2FB1D3041AD0008AF78 /* keyframesTests.xctest */,
+				490358B31DED106800CE48D8 /* keyframes.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -275,6 +328,31 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		490358B01DED106800CE48D8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				494F5CE11DED167800F88067 /* KFVector.h in Headers */,
+				494F5CE21DED168D00F88067 /* KFVectorLayer.h in Headers */,
+				494F5CE31DED169400F88067 /* KFUtilities.h in Headers */,
+				494F5CE51DED16AA00F88067 /* KFVectorParsingHelper.h in Headers */,
+				494F5CE61DED16CB00F88067 /* KFVectorAnimation.h in Headers */,
+				494F5CE71DED16CB00F88067 /* KFVectorAnimationGroup.h in Headers */,
+				494F5CE81DED16CB00F88067 /* KFVectorAnimationKeyValue.h in Headers */,
+				494F5CE91DED16CB00F88067 /* KFVectorFeature.h in Headers */,
+				494F5CEA1DED16CB00F88067 /* KFVectorFeatureKeyFrame.h in Headers */,
+				494F5CEB1DED16CB00F88067 /* KFVectorGradientEffect.h in Headers */,
+				494F5CEC1DED16CB00F88067 /* KFVectorAnimationLayer.h in Headers */,
+				494F5CED1DED16CB00F88067 /* KFVectorBitmapFeatureLayer.h in Headers */,
+				494F5CEE1DED16CB00F88067 /* KFVectorFeatureLayer.h in Headers */,
+				494F5CEF1DED16CB00F88067 /* KFVectorFeatureLayerInterface.h in Headers */,
+				494F5CF01DED16CB00F88067 /* KFVectorGradientFeatureLayer.h in Headers */,
+				494F5CF11DED16CB00F88067 /* KFVectorLayerHelper.h in Headers */,
+				494F5CF21DED16CB00F88067 /* KFVectorBezierPathsHelper.h in Headers */,
+				494F5CF31DED16CB00F88067 /* KFVectorView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		ADBA24AD1D2C3C9400D2549E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -303,6 +381,24 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		490358B21DED106800CE48D8 /* keyframes osx */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 490358BA1DED106800CE48D8 /* Build configuration list for PBXNativeTarget "keyframes osx" */;
+			buildPhases = (
+				490358AE1DED106800CE48D8 /* Sources */,
+				490358AF1DED106800CE48D8 /* Frameworks */,
+				490358B01DED106800CE48D8 /* Headers */,
+				490358B11DED106800CE48D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "keyframes osx";
+			productName = "keyframes osx";
+			productReference = 490358B31DED106800CE48D8 /* keyframes.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		AD46D2FA1D3041AD0008AF78 /* keyframesTests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = AD46D3051D3041AD0008AF78 /* Build configuration list for PBXNativeTarget "keyframesTests" */;
@@ -348,6 +444,10 @@
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = facebook;
 				TargetAttributes = {
+					490358B21DED106800CE48D8 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
 					AD46D2FA1D3041AD0008AF78 = {
 						CreatedOnToolsVersion = 7.3;
 					};
@@ -369,12 +469,29 @@
 			projectRoot = "";
 			targets = (
 				ADBA24AF1D2C3C9400D2549E /* keyframes */,
+				490358B21DED106800CE48D8 /* keyframes osx */,
 				AD46D2FA1D3041AD0008AF78 /* keyframesTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		490358B11DED106800CE48D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				494F5CFC1DED170300F88067 /* .valueObjectConfig in Resources */,
+				494F5CF41DED16F800F88067 /* Info.plist in Resources */,
+				494F5CF51DED16F800F88067 /* KFVector.value in Resources */,
+				494F5CF61DED16F800F88067 /* KFVectorAnimation.value in Resources */,
+				494F5CF71DED16F800F88067 /* KFVectorAnimationGroup.value in Resources */,
+				494F5CF81DED16F800F88067 /* KFVectorAnimationKeyValue.value in Resources */,
+				494F5CF91DED16F800F88067 /* KFVectorFeature.value in Resources */,
+				494F5CFA1DED16F800F88067 /* KFVectorFeatureKeyFrame.value in Resources */,
+				494F5CFB1DED16F800F88067 /* KFVectorGradientEffect.value in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		AD46D2F91D3041AD0008AF78 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -402,6 +519,30 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		490358AE1DED106800CE48D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				494F5CD01DED166000F88067 /* KFVector.m in Sources */,
+				494F5CD11DED166000F88067 /* KFVectorAnimation.m in Sources */,
+				494F5CD21DED166000F88067 /* KFVectorAnimationGroup.m in Sources */,
+				494F5CD31DED166000F88067 /* KFVectorAnimationKeyValue.m in Sources */,
+				494F5CD41DED166000F88067 /* KFVectorFeature.m in Sources */,
+				494F5CD51DED166000F88067 /* KFVectorFeatureKeyFrame.m in Sources */,
+				494F5CD61DED166000F88067 /* KFVectorGradientEffect.m in Sources */,
+				494F5CD71DED166000F88067 /* KFUtilities.m in Sources */,
+				494F5CD81DED166000F88067 /* KFVectorAnimationLayer.m in Sources */,
+				494F5CD91DED166000F88067 /* KFVectorBitmapFeatureLayer.m in Sources */,
+				494F5CDA1DED166000F88067 /* KFVectorFeatureLayer.m in Sources */,
+				494F5CDB1DED166000F88067 /* KFVectorGradientFeatureLayer.m in Sources */,
+				494F5CDC1DED166000F88067 /* KFVectorLayer.m in Sources */,
+				494F5CDD1DED166000F88067 /* KFVectorLayerHelper.m in Sources */,
+				494F5CDE1DED166000F88067 /* KFVectorBezierPathsHelper.m in Sources */,
+				494F5CDF1DED166000F88067 /* KFVectorParsingHelper.m in Sources */,
+				494F5CE01DED166000F88067 /* KFVectorView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		AD46D2F71D3041AD0008AF78 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -445,6 +586,58 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		490358B81DED106800CE48D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = "keyframes-osx";
+				PRODUCT_NAME = keyframes;
+				PUBLIC_HEADERS_FOLDER_PATH = include/keyframes;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/../keyframes/src";
+			};
+			name = Debug;
+		};
+		490358B91DED106800CE48D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = "keyframes-osx";
+				PRODUCT_NAME = keyframes;
+				PUBLIC_HEADERS_FOLDER_PATH = include/keyframes;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/../keyframes/src";
+			};
+			name = Release;
+		};
 		AD46D3031D3041AD0008AF78 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -594,6 +787,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		490358BA1DED106800CE48D8 /* Build configuration list for PBXNativeTarget "keyframes osx" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				490358B81DED106800CE48D8 /* Debug */,
+				490358B91DED106800CE48D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		AD46D3051D3041AD0008AF78 /* Build configuration list for PBXNativeTarget "keyframesTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

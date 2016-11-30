@@ -11,10 +11,10 @@
 
 @implementation KFVectorBitmapFeatureLayer
 
-- (instancetype)initWithImage:(UIImage *)image
+- (instancetype)initWithImage:(CGImageRef)image
 {
   if (self = [super init]) {
-    self.contents = (__bridge id)image.CGImage;
+    self.contents = (__bridge id)image;
   }
   return self;
 }

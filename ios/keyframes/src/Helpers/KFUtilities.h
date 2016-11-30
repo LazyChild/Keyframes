@@ -20,10 +20,12 @@
 
 #endif
 
-#import <UIKit/UIKit.h>
+#include <Foundation/Foundation.h>
 
 typedef id (^KFMapArrayHandler)(id object);
 typedef id (^KFMapArrayWithIndexHandler)(id object, NSUInteger index);
+
+KF_EXTERN_C_BEGIN
 
 NSArray *KFMapArray(NSArray *arrayToMap, KFMapArrayHandler mapBlock);
 NSArray *KFMapArrayWithIndex(NSArray *arrayToMap, KFMapArrayWithIndexHandler mapBlock);
@@ -31,6 +33,8 @@ NSArray *KFMapArrayWithIndex(NSArray *arrayToMap, KFMapArrayWithIndexHandler map
 UIColor *KFColorWithHexString(NSString *hexString);
 
 BOOL KFVersionLessThan(NSString *versionA, NSString *versionB);
+
+KF_EXTERN_C_END
 
 @interface NSMutableArray<ObjectType> (KFFoundation)
 

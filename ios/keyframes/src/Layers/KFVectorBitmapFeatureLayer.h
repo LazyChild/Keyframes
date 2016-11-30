@@ -7,7 +7,7 @@
  * of patent rights can be found in the PATENTS file in the same directory.
  */
 
-#import <UIKit/UIKit.h>
+#import <CoreGraphics/CoreGraphics.h>
 
 #import <keyframes/KFVectorAnimationLayer.h>
 #import <keyframes/KFVectorFeatureLayerInterface.h>
@@ -18,6 +18,6 @@
 @interface KFVectorBitmapFeatureLayer : KFVectorAnimationLayer <KFVectorFeatureLayerInterface>
 
 /** Designated initializer. Given a backed image of the layer. */
-- (instancetype)initWithImage:(UIImage *)image;
+- (instancetype)initWithImage:(CGImageRef)image;
 
 @end
